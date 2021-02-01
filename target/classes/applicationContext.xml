@@ -13,5 +13,17 @@
         <constructor-arg value="Kahan"/>
         <constructor-arg value="18"/>
     </bean>
+    <bean id="MyBean1"
+          class="By.Kagan.SpringApp.MyFrstBean">
+        <constructor-arg value= "Alexander"/>
+        <constructor-arg value="Kuzneatsov"/>
+        <constructor-arg value="19"/>
+    </bean>
+    <bean id="MyBean2"
+          class="By.Kagan.SpringApp.MyFrstBean">
+        <constructor-arg value= "Daniel"/>
+        <constructor-arg value="Kutis"/>
+        <constructor-arg value="18"/>
+    </bean>
 
 </beans>
