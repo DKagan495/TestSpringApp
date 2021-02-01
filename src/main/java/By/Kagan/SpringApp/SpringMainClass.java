@@ -10,10 +10,8 @@ public class SpringMainClass {
         Function function4 = applicationContext.getBean("theFourthPhoneBean", Function.class);
         Function function5 = applicationContext.getBean("theSixthPhoneBean", Function.class);
         Function function6 = applicationContext.getBean("theThirdPhoneBean", Function.class);
-        Phone phone = new Phone(function6);
+        Phone phone = applicationContext.getBean("mobilePhone", Phone.class);
         phone.whatDoes();
-        Phone phone1 = new Phone(function4);
-        phone1.whatDoes();
 
     }
 }

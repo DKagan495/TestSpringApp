@@ -28,5 +28,9 @@
     <bean id="theSixthPhoneBean"
           class="By.Kagan.SpringApp.Photo">
     </bean>
+    <bean id="mobilePhone"
+          class="By.Kagan.SpringApp.Phone">
+        <constructor-arg ref="theThirdPhoneBean"/>
+    </bean>
 
 </beans>
