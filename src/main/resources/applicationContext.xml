@@ -7,8 +7,26 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="myVideoBean"
-          class="By.Kagan.SpringApp.MusicVideo">
+    <bean id="testPhoneBean"
+          class="By.Kagan.SpringApp.Photo">
+    </bean>
+    <bean id="theFirstPhoneBean"
+          class="By.Kagan.SpringApp.Video">
+    </bean>
+    <bean id="theSecondPhoneBean"
+          class="By.Kagan.SpringApp.Call">
+    </bean>
+    <bean id="theThirdPhoneBean"
+          class="By.Kagan.SpringApp.internetConnect">
+    </bean>
+    <bean id="theFourthPhoneBean"
+          class="By.Kagan.SpringApp.Message">
+    </bean>
+    <bean id="theFifthPhoneBean"
+          class="By.Kagan.SpringApp.Call">
+    </bean>
+    <bean id="theSixthPhoneBean"
+          class="By.Kagan.SpringApp.Photo">
     </bean>
 
 </beans>

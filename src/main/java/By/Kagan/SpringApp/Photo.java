@@ -1,8 +1,8 @@
 package By.Kagan.SpringApp;
 
-public class Video implements Function{
+public class Photo implements Function{
     public String getFunction()
     {
-        return "capturing video";
+        return "taking photos";
     }
 }
