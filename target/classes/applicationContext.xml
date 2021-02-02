@@ -6,7 +6,7 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
-
+<context:property-placeholder location="classpath:phone.properties"/>
     <bean id="testPhoneBean"
           class="By.Kagan.SpringApp.Photo">
     </bean>
@@ -30,7 +30,9 @@
     </bean>
     <bean id="mobilePhone"
           class="By.Kagan.SpringApp.Phone">
-        <constructor-arg ref="theThirdPhoneBean"/>
+        <property name="function" ref="theFifthPhoneBean"/>
+        <property name="brand" value="${phone.brand}"/>
+        <property name="charge" value="${phone.charge}"/>
     </bean>
 
 </beans>

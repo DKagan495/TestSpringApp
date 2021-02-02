@@ -12,6 +12,8 @@ public class SpringMainClass {
         Function function6 = applicationContext.getBean("theThirdPhoneBean", Function.class);
         Phone phone = applicationContext.getBean("mobilePhone", Phone.class);
         phone.whatDoes();
+        phone.whatBrand();
+        phone.whatCharge();
 
     }
 }
